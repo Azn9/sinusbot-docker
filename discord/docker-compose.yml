@@ -1,5 +1,5 @@
 sinusbot:
-  image: upstagebit/sinusbot:discord
+  image: azn9/sinusbot:discord
   restart: always
   ports:
     - 8087:8087
