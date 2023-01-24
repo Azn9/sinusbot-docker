@@ -2,7 +2,7 @@
 
 set -e
 
-SINUSBOT_VERSION="1.0.0-beta.16-ba60e37"
+SINUSBOT_VERSION="1.0.1-amd64"
 
 case "$1" in
 
@@ -18,6 +18,7 @@ case "$1" in
 	;;
 "text-to-speech")
 	echo "Installing Text-to-Speech..."
+        mkdir tts
 	cd tts
 	mkdir tmp
 	cd tmp

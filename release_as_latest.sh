@@ -11,7 +11,7 @@ fi
 
 echo "Version: $VERSION"
 
-IMAGE=upstagebit/sinusbot
+IMAGE=azn9/sinusbot
 
 read -p "Pull from git? [Y/n] " -n 1 -r
 echo

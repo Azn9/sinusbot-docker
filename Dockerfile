@@ -1,7 +1,7 @@
-FROM upstagebit/sinusbot:1.0.0-beta.16-ba60e37-discord
+FROM azn9/sinusbot:1.0.1-amd64-discord
 
 LABEL description="SinusBot - TeamSpeak 3 and Discord music bot."
-LABEL version="1.0.0-beta.16-ba60e37"
+LABEL version="1.0.1-amd64"
 
 # Install dependencies and clean up afterwards
 RUN apt-get update && \
